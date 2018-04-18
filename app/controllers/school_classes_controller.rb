@@ -16,6 +16,7 @@ class SchoolClassesController < ApplicationController
 
   def edit
     @school_class = SchoolClass.find(params[:id])
+    byebug
   end
 
   def update
