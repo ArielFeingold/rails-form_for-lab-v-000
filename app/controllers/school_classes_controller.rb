@@ -11,6 +11,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def show
+    byebug
     @school_class = SchoolClass.find(params[:id])
   end
 
